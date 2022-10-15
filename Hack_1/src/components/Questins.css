@@ -1,0 +1,143 @@
+
+.app {
+  background-color: #05031C;
+  width: 1050px;
+  min-height: 450px;
+  height: min-content;
+  border-radius: 15px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  justify-content: space-evenly;
+  color: white;
+}
+
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+
+.question-section {
+  width: 100%;
+  
+}
+
+.question-count {
+  margin-bottom: 20px;
+  background: #242D4A;
+  height: 30px;
+  padding: 0.8rem 4rem;
+  border-top-left-radius:15px ;
+  border-top-right-radius: 15px;
+
+}
+
+.question-count span {
+  font-size: 28px;
+  color: #E2CBCB;
+}
+
+.question-text {
+  width: 60vw;
+  margin-bottom: 12px;
+  font-size: 18px;
+  margin-left: 3vw;
+  color: #E2CBCB;
+}
+
+.answer-section {
+  
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 40px;
+}
+
+.answer-section button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #05031C;
+  border-radius: 8px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border:2px solid white;
+  cursor: pointer;
+}
+.buttons button{
+   width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #05031C;
+  border-radius: 8px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border:2px solid white;
+  cursor: pointer;
+}
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+.buttons button:hover {
+  background-color: #555e7d;
+}
+
+.buttons button:focus {
+  outline: none;
+}
+
+.buttons button svg {
+  margin-right: 5px;
+}
+
+
+.buttons{
+  margin-top:40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nextbutton button{
+   width: 6vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#prevbutton button{
+  width: 6vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.submitbutton button{
+  width: 6vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.line{
+  width: 100%;
+}
+.fixed{
+  margin-left: 37px;
+  margin-top: -18px;
+  margin-bottom: 7px;
+}
+.score-section{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

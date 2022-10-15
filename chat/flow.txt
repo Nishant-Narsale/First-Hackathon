@@ -1,0 +1,7 @@
+loggedIn -> for first time -> Adminornot
+	 -> next time -> if in admins -> create or select exam code -> proctor-chat for that exam code
+		      -> if in students -> create or select exam code -> student-chat for that exam code with proctor only
+
+
+admins
+students

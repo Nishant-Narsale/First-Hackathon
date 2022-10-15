@@ -1,0 +1,33 @@
+.half-circle {
+  width: 400px;
+  height: 200px;
+  background-color: gold;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  border: 10px solid gray;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.rod {
+  z-index: 1;
+  position: absolute;
+  top: 191px;
+  left: 200px;
+  border-radius: 5vmin/2.5vmin;
+  width: 20vmin;
+  height: 1vmin;
+  background-color: green;
+  transform-origin: left top;
+  animation: rotate 4s forwards;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}

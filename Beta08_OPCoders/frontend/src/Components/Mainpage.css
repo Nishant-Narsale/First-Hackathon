@@ -1,0 +1,44 @@
+*{
+  top: 0;
+  padding: 0;
+  
+}
+.mainpage{
+background: #312709
+}
+.image img{
+  width: 100%;
+  height: 75vh;
+
+}
+.bottom{
+  height: 24.4vh;
+  background: #312709;
+  overflow-x: overlay;
+}
+
+.rectangle{
+  position: absolute;
+  border: 4px solid #000000;
+  min-width: 89vw;
+  height: 84vh;
+  left: 12vh;
+  top: 6vh;
+  border-radius: 15px;
+  
+}
+.bottomcontent{
+  position: relative;
+  top: 35vh;
+  color: white;
+  font-size: 20px;
+  margin: 0vw 14vw;
+}
+
+a{
+  text-decoration : none;
+  padding : 2vw 1vw;
+  background-color : white;
+  opacity : 0.5;
+  color : black;
+}
